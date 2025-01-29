@@ -1,0 +1,149 @@
+/* Container */
+.home-container {
+    margin: 56px 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.left-container,
+.right-container {
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.left-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.right-container {
+    width: 60%;
+    background-color: rgb(244, 244, 244);
+    padding-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.biography-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.about-container, .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.detail-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    gap: 16px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Container */
+
+/* text */
+.name-text {
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0;
+}
+
+.job-text {
+    color:rgb(2 10 245);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.based-text {
+    color: #767676;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about-text, .skills-text {
+    color: rgb(75 85 99);
+    font-size: 20px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-section-text {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 16px;
+
+}
+
+/* text */
+
+
+/* image */
+.my-photo {
+    width: 125px;
+    height: 120px;
+    border-radius: 999999px;
+}
+
+.github-logo,
+.linkedin-logo,
+.email-logo {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 99999px;
+    background-color: lightgrey;
+    color: #606060;
+    display: flex;
+    align-items: center;
+}
+
+.github-logo:hover {
+    color: black;
+}
+
+.linkedin-logo:hover {
+    color: #0077B5;
+}
+
+.email-logo:hover {
+    color: blue;
+}
+
+/* image */
